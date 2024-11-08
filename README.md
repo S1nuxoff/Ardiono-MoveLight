@@ -38,5 +38,6 @@ This setup allows the Arduino to control the brightness of the LED strips using 
 4. Use the button to switch between different lighting modes.
 5. The system will automatically adjust the LED brightness based on ambient light.
 
-## License
-This project is licensed under the MIT License.
+---
+
+*This README file was generated with the assistance of ChatGPT.* 
