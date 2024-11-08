@@ -20,17 +20,6 @@ This project is a motion-responsive lighting system controlled by an Arduino. Th
 - Resistors (10 kΩ, 220 Ω)
 - White LED strips
 
-## Wiring Diagram
-Refer to the connection diagram in the project for detailed wiring instructions.
-
-### Connecting White LED Strips to MOSFETs
-1. **Positive terminal of the LED strip** connects to the external power source (+12V or +24V, depending on the strip type).
-2. **Negative terminal of the LED strip** connects to the **Drain (D)** of the MOSFET.
-3. **Gate (G)** of the MOSFET connects to a PWM pin on Arduino (pins 9 or 10).
-4. **Source (S)** of the MOSFET connects to **GND**.
-
-This setup allows the Arduino to control the brightness of the LED strips using PWM.
-
 ## Usage
 1. Connect the components according to the wiring diagram.
 2. Upload the Arduino sketch to your Arduino board.
